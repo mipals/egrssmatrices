@@ -1,6 +1,6 @@
 # egrssmatrices
 
-![Build Status](https://github.com/mipals/egrssmatrices/actions/workflows/python-app.yml/badge.svg?branch=main)
+[![Build Status](https://github.com/mipals/egrssmatrices/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/mipals/egrssmatrices/actions/workflows/python-app.yml?query=branch%3Amain)
 
 ## Description
 A package for efficiently computing with symmetric extended generator representable semiseparable matrices (EGRSS Matrices) and a variant with added diagonal terms. In short this means matrices of the form
