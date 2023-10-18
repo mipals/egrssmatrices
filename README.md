@@ -17,5 +17,8 @@ All implemented algorithms (multiplication, Cholesky factorization, forward/back
 
 A more in-depth descriptions of the algorithms can be found in [1] or [here](https://github.com/mipals/SmoothingSplines.jl/blob/master/mt_mikkel_paltorp.pdf).
 
+### Example application: Smoothing Splines
+An application of EGRSS matrices is smoothing splines as the so-called spline kernel matrix is an EGRSS matrix. An example implementation can be found in `examples/smoothingsplines.py`.
+
 ## References
 [1] M. S. Andersen and T. Chen, “Smoothing Splines and Rank Structured Matrices: Revisiting the Spline Kernel,” SIAM Journal on Matrix Analysis and Applications, 2020.
