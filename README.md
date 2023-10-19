@@ -10,8 +10,13 @@ K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right), 
 $$
 
 $$
+K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right) + \lambda I, \quad U,V\in\mathbb{R}^{n\times p},\ \lambda\in\mathbb{R}
+$$
+
+$$
 K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right) + \text{\textbf{diag}}(d), \quad U,V\in\mathbb{R}^{n\times p},\ d\in\mathbb{R}^n
 $$
+
 
 All implemented algorithms (multiplication, Cholesky factorization, forward/backward substitution as well as various traces and determinants) scales with $O(p^kn)$. Since $p \ll n$ this result in very scalable computations.
 
