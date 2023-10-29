@@ -6,15 +6,15 @@
 A package for efficiently computing with symmetric extended generator representable semiseparable matrices (EGRSS Matrices) and a variant with added diagonal terms. In short this means matrices of the form
 
 $$
-K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right), \quad U,V\in\mathbb{R}^{n\times p}
+\mathbf{K} = \text{\textbf{tril}}(\mathbf{UV}^\top) + \text{\textbf{triu}}\left(\mathbf{VU}^\top,1\right), \quad \mathbf{U}, \mathbf{V}\in\mathbb{R}^{n\times p}
 $$
 
 $$
-K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right) + \lambda I, \quad U,V\in\mathbb{R}^{n\times p},\ \lambda\in\mathbb{R}
+\mathbf{K} = \text{\textbf{tril}}(\mathbf{UV}^\top) + \text{\textbf{triu}}\left(\mathbf{VU}^\top,1\right) + d \mathbf{I}, \quad \mathbf{U}, \mathbf{V}\in\mathbb{R}^{n\times p},\ d\in\mathbb{R}
 $$
 
 $$
-K = \text{\textbf{tril}}(UV^\top) + \text{\textbf{triu}}\left(VU^\top,1\right) + \text{\textbf{diag}}(d), \quad U,V\in\mathbb{R}^{n\times p},\ d\in\mathbb{R}^n
+\mathbf{K} = \text{\textbf{tril}}(\mathbf{UV}^\top) + \text{\textbf{triu}}\left(\mathbf{VU}^\top,1\right) + \text{\textbf{diag}}(\mathbf{d}), \quad \mathbf{U}, \mathbf{V}\in\mathbb{R}^{n\times p},\ \mathbf{d}\in\mathbb{R}^n
 $$
 
 
